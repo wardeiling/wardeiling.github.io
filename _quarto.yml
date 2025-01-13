@@ -1,0 +1,20 @@
+project:
+  type: website
+
+website:
+  title: "Ward Eiling"
+  navbar:
+    left:
+      - href: index.qmd
+        text: "About Me"
+      - href: mywork.qmd
+        text: "My Work"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
