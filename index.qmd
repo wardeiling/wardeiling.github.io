@@ -2,8 +2,8 @@
 title: "Ward B. Eiling"
 about:
   id: hero-heading
-  template: jolla
-  image: wardeiling.jpg
+  template: trestles
+  image: wardeiling-forest.jpg
   links:
     - icon: linkedin
       text: linkedin
@@ -15,20 +15,26 @@ about:
 
 :::{#hero-heading}
 
-Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.
 
-## Education
+I am a research master's student in methodology and statistics at Utrecht University. I have a specific interest in causal discovery, Bayesian statistics, high dimensional data analysis (e.g., neural networks) and intensive longitudinal data analysis. 
 
-University of California, San Diego | San Diego, CA
-PhD in Mathematics | Sept 2011 - June 2015
+When I am not programming or writing, I enjoy playing the electric guitar, going on hikes and reading philosophy books (about mindfulness and stoicism), as well as novels.
 
-Macalester College | St. Paul MA
-B.A in Economics | Sept 2007 - June 2011
 
-## Experience
+<!-- Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana. -->
 
-Wengo Analytics | Head Data Scientist | April 2018 - present
+<!-- ## Education -->
 
-GeoScynce | Chief Analyst | Sept 2012 - April 2018
+<!-- University of California, San Diego | San Diego, CA -->
+<!-- PhD in Mathematics | Sept 2011 - June 2015 -->
 
-:::
+<!-- Macalester College | St. Paul MA -->
+<!-- B.A in Economics | Sept 2007 - June 2011 -->
+
+<!-- ## Experience -->
+
+<!-- Wengo Analytics | Head Data Scientist | April 2018 - present -->
+
+<!-- GeoScynce | Chief Analyst | Sept 2012 - April 2018 -->
+
+<!-- ::: -->

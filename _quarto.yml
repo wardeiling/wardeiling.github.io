@@ -7,8 +7,10 @@ website:
     left:
       - href: index.qmd
         text: "About Me"
-      - href: mywork.qmd
-        text: "My Work"
+      - href: resume.pdf
+        text: "Resume"
+      # - href: mywork.qmd
+      #   text: "My Work"
 
 format:
   html:
