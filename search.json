@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "mywork.html",
+    "href": "mywork.html",
+    "title": "My Work",
+    "section": "",
+    "text": "Welcome to my work page! Here you can find a list of all my work experience and education.\nLet’s now check if it renders automatically this website."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Ward B. Eiling",
@@ -19,12 +26,5 @@
     "title": "Ward B. Eiling",
     "section": "",
     "text": "Wengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Sept 2012 - April 2018"
-  },
-  {
-    "objectID": "mywork.html",
-    "href": "mywork.html",
-    "title": "My Work",
-    "section": "",
-    "text": "Welcome to my work page! Here you can find a list of all my work experience and education."
   }
 ]
