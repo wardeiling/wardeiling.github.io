@@ -4,7 +4,14 @@
     "href": "mywork.html",
     "title": "My Work",
     "section": "",
-    "text": "Welcome to my work page! Here you can find a list of all my work experience and education. Cool, let’s now check if it renders automatically this website. Let us check this."
+    "text": "Welcome to my work page! Here you can find a list of some projects I have worked on."
+  },
+  {
+    "objectID": "mywork.html#master-thesis-project",
+    "href": "mywork.html#master-thesis-project",
+    "title": "My Work",
+    "section": "Master Thesis Project",
+    "text": "Master Thesis Project\nUnder supervision of prof. dr. Ellen Hamaker and dr. Jeroen Mulder, I conducted a research project into …\n\nThis browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/master-thesis.pdf\"&gt;Download PDF&lt;/a&gt;."
   },
   {
     "objectID": "index.html",
