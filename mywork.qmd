@@ -6,8 +6,12 @@ Welcome to my work page! Here you can find a list of some projects I have worked
 
 ## Master Thesis Project
 
-Under supervision of prof. dr. Ellen Hamaker and dr. Jeroen Mulder, I conducted a research project into ...
+Under supervision of prof. dr. Ellen Hamaker and dr. Jeroen Mulder, I conducted a research project into ... The full manuscript is provided below.
 
-pdf link [Master Thesis](https://wardeiling.github.io/master-thesis.pdf)
+<iframe src="https://wardeiling.github.io/multilevel-vs-gee-binary/master-thesis.pdf" width="100%" height="700px" style="border: none;">
+  This browser does not support PDFs. Please download the PDF instead:
+  <a href="https://wardeiling.github.io/multilevel-vs-gee-binary/master-thesis.pdf">Download PDF</a>.
+</iframe>
 
-With the [supplementary materials](https://wardeiling.github.io/multilevel-vs-gee-binary/supplementary_materials.html)
+
+This manuscript comes delivered with [supplementary materials](https://wardeiling.github.io/multilevel-vs-gee-binary/supplementary_materials.html).
