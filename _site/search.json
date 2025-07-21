@@ -4,7 +4,7 @@
     "href": "mywork.html",
     "title": "My Work",
     "section": "",
-    "text": "Welcome to my work page! Here you can find a list of all my work experience and education. Cool, let’s now check if it renders automatically this website. Let us check this."
+    "text": "Welcome to my work page! Here you can find a list of some projects I have worked on."
   },
   {
     "objectID": "index.html",
@@ -12,5 +12,12 @@
     "title": "Ward B. Eiling",
     "section": "",
     "text": "linkedin\n  \n  \n    \n     Github\n  \n\n  \n  \nI am a research master’s student in methodology and statistics at Utrecht University. I have a specific interest in causal discovery, Bayesian statistics, high dimensional data analysis (e.g., neural networks) and intensive longitudinal data analysis.\nWhen I am not programming or writing, I enjoy playing the electric guitar, going on hikes and reading philosophy books (about mindfulness and stoicism), as well as novels."
+  },
+  {
+    "objectID": "mywork.html#master-thesis-project",
+    "href": "mywork.html#master-thesis-project",
+    "title": "My Work",
+    "section": "Master Thesis Project",
+    "text": "Master Thesis Project\nUnder supervision of prof. dr. Ellen Hamaker and dr. Jeroen Mulder, I conducted a research project into …\n\nThis browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/master-thesis.pdf\"&gt;Download PDF&lt;/a&gt;."
   }
 ]

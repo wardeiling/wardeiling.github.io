@@ -2,4 +2,13 @@
 title: "My Work"
 ---
 
-Welcome to my work page! Here you can find a list of all my work experience and education. Cool, let's now check if it renders automatically this website. Let us check this.
+Welcome to my work page! Here you can find a list of some projects I have worked on.
+
+## Master Thesis Project
+
+Under supervision of prof. dr. Ellen Hamaker and dr. Jeroen Mulder, I conducted a research project into ...
+
+<iframe src="https://wardeiling.github.io/master-thesis.pdf" width="100%" height="700px" style="border: none;">
+  This browser does not support PDFs. Please download the PDF instead:
+  <a href="https://wardeiling.github.io/master-thesis.pdf">Download PDF</a>.
+</iframe>
