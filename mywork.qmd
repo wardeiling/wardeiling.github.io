@@ -20,18 +20,18 @@ This browser does not support PDFs. Please download the PDF instead: <a href="ht
 
 In a course on *High-Dimensional Data Analysis*, I worked on classifying prostate tumor versus healthy tissue samples using gene expression data with over 6,000 variables. Comparing stepwise logistic regression, PCA, and sparse PCA, I learned how dimension reduction techniques can improve prediction while raising trade-offs between accuracy, parsimony, and interpretability.
 
-<iframe src="site/Manuscript_From-Genes-to-Tumors.pdf" width="100%" height="600px"  style="border: none;"></iframe>
+<!-- <iframe src="site/Manuscript_From-Genes-to-Tumors.pdf" width="100%" height="600px"  style="border: none;"></iframe> -->
 
 ### Bayesian Vector Autoregression (2024)
 
 For a master’s course in *Bayesian Statistics*, I explored how Bayesian methods can improve vector autoregression (VAR(1)) models, which are often used to study dynamic processes such as mood and behavior over time. These models are powerful but can easily overfit when applied to the short time series common in psychology. To address this, I implemented and compared three Bayesian approaches that use different types of prior information to stabilize estimation. This project gave me valuable insights into the practical complications of applying Bayesian VAR models and how methodological choices shape the results. The full report is available below.
 
-<iframe src="https://raw.githubusercontent.com/wardeiling/Bayesian-Vector-Autoregression/main/Report-Bayesian-Vector-Autogression.pdf" width="100%" height="600px"  style="border: none;"></iframe>
+<!-- <iframe src="https://raw.githubusercontent.com/wardeiling/Bayesian-Vector-Autoregression/main/Report-Bayesian-Vector-Autogression.pdf" width="100%" height="600px"  style="border: none;"></iframe> -->
 
 ### LISS Income Imputations (2023)
 
 As part of a course on *Survey Data Analysis*, I compared stepwise (single) imputation with multiple imputation in a high-dimensional dataset. This project illustrated the trade-offs between computational simplicity and statistical rigor, and showed me the practical challenges of handling missing data when many variables are involved.
 
-<iframe src="https://raw.githubusercontent.com/wardeiling/Project-LISS-income-imputation/main/final-report.pdf" width="100%" height="600px" style="border: none;"></iframe>
+<!-- <iframe src="https://raw.githubusercontent.com/wardeiling/Project-LISS-income-imputation/main/final-report.pdf" width="100%" height="600px" style="border: none;"></iframe> -->
 
 
