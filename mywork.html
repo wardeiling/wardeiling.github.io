@@ -120,7 +120,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#master-thesis-project" id="toc-master-thesis-project" class="nav-link active" data-scroll-target="#master-thesis-project">Master Thesis Project</a></li>
+  <li><a href="#msc.-methodology-and-statistics-utrecht-university" id="toc-msc.-methodology-and-statistics-utrecht-university" class="nav-link active" data-scroll-target="#msc.-methodology-and-statistics-utrecht-university">MSc. Methodology and Statistics, Utrecht University</a>
+  <ul class="collapse">
+  <li><a href="#master-thesis-project-2024-2025" id="toc-master-thesis-project-2024-2025" class="nav-link" data-scroll-target="#master-thesis-project-2024-2025">Master Thesis Project (2024-2025)</a></li>
+  <li><a href="#from-genes-to-tumors-a-comparison-of-dimension-reduction-techniques-in-logistic-regression-2024" id="toc-from-genes-to-tumors-a-comparison-of-dimension-reduction-techniques-in-logistic-regression-2024" class="nav-link" data-scroll-target="#from-genes-to-tumors-a-comparison-of-dimension-reduction-techniques-in-logistic-regression-2024">From Genes to Tumors: A Comparison of Dimension Reduction Techniques in Logistic Regression (2024)</a>
+  <ul class="collapse">
+  <li><a href="#bayesian-vector-autoregression-2024" id="toc-bayesian-vector-autoregression-2024" class="nav-link" data-scroll-target="#bayesian-vector-autoregression-2024">Bayesian Vector Autoregression (2024)</a></li>
+  <li><a href="#liss-income-imputations-2023" id="toc-liss-income-imputations-2023" class="nav-link" data-scroll-target="#liss-income-imputations-2023">LISS Income Imputations (2023)</a></li>
+  </ul></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -147,15 +155,35 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Welcome to my work page! Here you can find a list of some projects I have worked on.</p>
-<section id="master-thesis-project" class="level2">
-<h2 class="anchored" data-anchor-id="master-thesis-project">Master Thesis Project</h2>
-<p>Under supervision of prof. dr. Ellen Hamaker and dr. Jeroen Mulder, I conducted a research project into … The full manuscript is provided below.</p>
-<iframe src="https://wardeiling.github.io/multilevel-vs-gee-binary/master-thesis.pdf" width="100%" height="700px" style="border: none;">
-This browser does not support PDFs. Please download the PDF instead: <a href="https://wardeiling.github.io/multilevel-vs-gee-binary/master-thesis.pdf">Download PDF</a>.
+<section id="msc.-methodology-and-statistics-utrecht-university" class="level1">
+<h1>MSc. Methodology and Statistics, Utrecht University</h1>
+<section id="master-thesis-project-2024-2025" class="level2">
+<h2 class="anchored" data-anchor-id="master-thesis-project-2024-2025">Master Thesis Project (2024-2025)</h2>
+<p>In collaboration with prof. dr. Ellen Hamaker and dr. Jeroen Mulder, I examined how within-person and between-person effects can be estimated in clustered longitudinal data with binary predictors and outcomes. We compared the performance of multilevel models (MLMs) and generalized estimating equations (GEEs) across different disaggregation methods. Our simulations show that the commonly used person-mean centering approach—often regarded as the gold standard—can lead to problematic results when applied in MLMs with binary outcomes. The full manuscript is available below and comes delivered with <a href="https://github.com/wardeiling/multilevel-vs-gee-binary">replication instructions</a> and <a href="https://wardeiling.github.io/multilevel-vs-gee-binary/supplementary_materials.html">supplementary materials</a>.</p>
+<iframe src="https://wardeiling.github.io/multilevel-vs-gee-binary/master-thesis.pdf" width="100%" height="600px" style="border: none;">
+<p>This browser does not support PDFs. Please download the PDF instead: <a href="https://wardeiling.github.io/multilevel-vs-gee-binary/master-thesis.pdf">Download PDF</a>.</p>
 </iframe>
-<p>This manuscript comes delivered with <a href="https://wardeiling.github.io/multilevel-vs-gee-binary/supplementary_materials.html">supplementary materials</a>.</p>
+</section>
+<section id="from-genes-to-tumors-a-comparison-of-dimension-reduction-techniques-in-logistic-regression-2024" class="level2">
+<h2 class="anchored" data-anchor-id="from-genes-to-tumors-a-comparison-of-dimension-reduction-techniques-in-logistic-regression-2024">From Genes to Tumors: A Comparison of Dimension Reduction Techniques in Logistic Regression (2024)</h2>
+<p>In a course on <em>High-Dimensional Data Analysis</em>, I worked on classifying prostate tumor versus healthy tissue samples using gene expression data with over 6,000 variables. Comparing stepwise logistic regression, PCA, and sparse PCA, I learned how dimension reduction techniques can improve prediction while raising trade-offs between accuracy, parsimony, and interpretability.</p>
+<iframe src="site/Manuscript_From-Genes-to-Tumors.pdf" width="100%" height="600px" style="border: none;">
+</iframe>
+<section id="bayesian-vector-autoregression-2024" class="level3">
+<h3 class="anchored" data-anchor-id="bayesian-vector-autoregression-2024">Bayesian Vector Autoregression (2024)</h3>
+<p>For a master’s course in <em>Bayesian Statistics</em>, I explored how Bayesian methods can improve vector autoregression (VAR(1)) models, which are often used to study dynamic processes such as mood and behavior over time. These models are powerful but can easily overfit when applied to the short time series common in psychology. To address this, I implemented and compared three Bayesian approaches that use different types of prior information to stabilize estimation. This project gave me valuable insights into the practical complications of applying Bayesian VAR models and how methodological choices shape the results. The full report is available below.</p>
+<iframe src="https://raw.githubusercontent.com/wardeiling/Bayesian-Vector-Autoregression/main/Report-Bayesian-Vector-Autogression.pdf" width="100%" height="600px" style="border: none;">
+</iframe>
+</section>
+<section id="liss-income-imputations-2023" class="level3">
+<h3 class="anchored" data-anchor-id="liss-income-imputations-2023">LISS Income Imputations (2023)</h3>
+<p>As part of a course on <em>Survey Data Analysis</em>, I compared stepwise (single) imputation with multiple imputation in a high-dimensional dataset. This project illustrated the trade-offs between computational simplicity and statistical rigor, and showed me the practical challenges of handling missing data when many variables are involved.</p>
+<iframe src="https://raw.githubusercontent.com/wardeiling/Project-LISS-income-imputation/main/final-report.pdf" width="100%" height="600px" style="border: none;">
+</iframe>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
