@@ -20,18 +20,35 @@ This browser does not support PDFs. Please download the PDF instead: <a href="ht
 
 In a course on *High-Dimensional Data Analysis*, I worked on classifying prostate tumor versus healthy tissue samples using gene expression data with over 6,000 variables. Comparing stepwise logistic regression, PCA, and sparse PCA, I learned how dimension reduction techniques can improve prediction while raising trade-offs between accuracy, parsimony, and interpretability.
 
-<!-- <iframe src="site/Manuscript_From-Genes-to-Tumors.pdf" width="100%" height="600px"  style="border: none;"></iframe> -->
+<iframe src="https://wardeiling.github.io/Sparse-PCA-and-Gene-Expression/Manuscript_From-Genes-to-Tumors.pdf" width="100%" height="600px" style="border: none;">
+This browser does not support PDFs. Please download the PDF instead: <a href="https://wardeiling.github.io/Sparse-PCA-and-Gene-Expression/Manuscript_From-Genes-to-Tumors.pdf">Download PDF</a>.
+</iframe>
 
-### Bayesian Vector Autoregression (2024)
+## Bayesian Vector Autoregression (2024)
 
-For a master’s course in *Bayesian Statistics*, I explored how Bayesian methods can improve vector autoregression (VAR(1)) models, which are often used to study dynamic processes such as mood and behavior over time. These models are powerful but can easily overfit when applied to the short time series common in psychology. To address this, I implemented and compared three Bayesian approaches that use different types of prior information to stabilize estimation. This project gave me valuable insights into the practical complications of applying Bayesian VAR models and how methodological choices shape the results. The full report is available below.
+For a master’s course in *Bayesian Statistics*, I explored how Bayesian methods can improve vector autoregression (VAR(1)) models, which are often used to study dynamic processes such as mood and behavior over time. These models are powerful but can easily overfit when applied to the short time series common in psychology. To address this, I implemented and compared three Bayesian approaches that use different types of prior information to stabilize estimation. This project gave me valuable insights into the practical complications of applying Bayesian VAR models and how methodological choices shape the results. 
 
-<!-- <iframe src="https://raw.githubusercontent.com/wardeiling/Bayesian-Vector-Autoregression/main/Report-Bayesian-Vector-Autogression.pdf" width="100%" height="600px"  style="border: none;"></iframe> -->
+<iframe src="https://wardeiling.github.io/Bayesian-Vector-Autoregression/Report-Bayesian-Vector-Autogression.pdf" width="100%" height="600px" style="border: none;">
+This browser does not support PDFs. Please download the PDF instead: <a href="https://wardeiling.github.io/Bayesian-Vector-Autoregression/Report-Bayesian-Vector-Autogression.pdf">Download PDF</a>.
+</iframe>
 
-### LISS Income Imputations (2023)
+## LISS Income Imputations (2023)
 
 As part of a course on *Survey Data Analysis*, I compared stepwise (single) imputation with multiple imputation in a high-dimensional dataset. This project illustrated the trade-offs between computational simplicity and statistical rigor, and showed me the practical challenges of handling missing data when many variables are involved.
 
-<!-- <iframe src="https://raw.githubusercontent.com/wardeiling/Project-LISS-income-imputation/main/final-report.pdf" width="100%" height="600px" style="border: none;"></iframe> -->
+<iframe src="https://wardeiling.github.io/Project-LISS-income-imputation/final-report.pdf" width="100%" height="600px" style="border: none;">
+This browser does not support PDFs. Please download the PDF instead: <a href="https://wardeiling.github.io/Project-LISS-income-imputation/final-report.pdf">Download PDF</a>.
+</iframe>
+
+# BSc. Psychology, University of Groningen
+
+## Bachelor Thesis Project (2023)
+
+In collaboration with Dr. Laura Bringmann and Yong Zhang, I explored how model misspecification in lag-1 vector autoregressive (VAR1) models affects predictions in psychopathology research. This thesis emphasized the importance of evaluating predictive accuracy, and highlighted the challenges of working with large datasets and violations of model assumptions. This collaboration led to a another project on model selection of AR-based models, which is currently under review at the British Journal of Mathematical and Statistical Psychology.
+
+<iframe src="https://wardeiling.github.io/Bachelor-Thesis-VAR-Misspecification/BachelorThesis_Eiling_s3983919.pdf" width="100%" height="600px" style="border: none;">
+This browser does not support PDFs. Please download the PDF instead: <a href="https://wardeiling.github.io/Bachelor-Thesis-VAR-Misspecification/BachelorThesis_Eiling_s3983919.pdf">Download PDF</a>.
+</iframe>
+
 
 
