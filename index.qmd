@@ -9,7 +9,7 @@ about:
       text: Linkedin
       href: https://www.linkedin.com/in/wardeiling/
     - icon: github
-      text: Github
+      text: GitHub
       href: https://github.com/wardeiling
 ---
 
@@ -17,7 +17,7 @@ about:
 
 I am a PhD student at Tilburg University's [Department of Methodology and Statistics](https://www.tilburguniversity.edu/about/schools/socialsciences/organization/departments/methodology-statistics). My PhD focuses on utilizing causal discovery and machine learning methods to enhance theory formation in the social sciences. Before this, I completed the research master's program in Methodology and Statistics at Utrecht University.
 
-When I am not programming or writing, I enjoy playing the electric guitar, mountain biking, going on hikes and reading philosophy books (about mindfulness and stoicism), as well as novels (feel free to connect with me on [goodreads](https://www.goodreads.com/user/show/149844375-ward).
+When I am not programming or writing, I enjoy playing the electric guitar, mountain biking, going on hikes and reading philosophy books (about mindfulness and stoicism), as well as novel. Feel free to connect with me on [goodreads](https://www.goodreads.com/user/show/149844375-ward) :).
 
 
 <!-- Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana. -->
