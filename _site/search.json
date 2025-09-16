@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Ward B. Eiling",
     "section": "",
-    "text": "linkedin\n  \n  \n    \n     Github\n  \n\n  \n  \nI am a research master’s student in methodology and statistics at Utrecht University. I have a specific interest in causal discovery, Bayesian statistics, high dimensional data analysis (e.g., neural networks) and intensive longitudinal data analysis.\nWhen I am not programming or writing, I enjoy playing the electric guitar, going on hikes and reading philosophy books (about mindfulness and stoicism), as well as novels."
+    "text": "Linkedin\n  \n  \n    \n     Github\n  \n\n  \n  \nI am a PhD student at Tilburg University’s Department of Methodology and Statistics. My PhD focuses on utilizing causal discovery and machine learning methods to enhance theory formation in the social sciences. Before this, I completed the research master’s program in Methodology and Statistics at Utrecht University.\nWhen I am not programming or writing, I enjoy playing the electric guitar, mountain biking, going on hikes and reading philosophy books (about mindfulness and stoicism), as well as novels (feel free to connect with me on goodreads."
   },
   {
     "objectID": "mywork.html#master-thesis-project",
@@ -19,5 +19,40 @@
     "title": "My Work",
     "section": "Master Thesis Project",
     "text": "Master Thesis Project\nUnder supervision of prof. dr. Ellen Hamaker and dr. Jeroen Mulder, I conducted a research project into … The full manuscript is provided below.\n\nThis browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/multilevel-vs-gee-binary/master-thesis.pdf\"&gt;Download PDF&lt;/a&gt;.\n\nThis manuscript comes delivered with supplementary materials."
+  },
+  {
+    "objectID": "mywork.html#second-year-2024-2025",
+    "href": "mywork.html#second-year-2024-2025",
+    "title": "My Work",
+    "section": "Second Year (2024-2025)",
+    "text": "Second Year (2024-2025)\n\nMaster Thesis Project\nIn collaboration with prof. dr. Ellen Hamaker and dr. Jeroen Mulder, I examined how within-person and between-person effects can be estimated in clustered longitudinal data with binary predictors and outcomes. We compared the performance of multilevel models (MLMs) and generalized estimating equations (GEEs) across different disaggregation methods. Our simulations show that the commonly used person-mean centering approach—often regarded as the gold standard—can lead to problematic results when applied in MLMs with binary outcomes. The full manuscript is available below.\n\n&lt;p&gt;This browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/multilevel-vs-gee-binary/master-thesis.pdf\"&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;\n\nThis manuscript comes delivered with replication instructions and supplementary materials.\n\n\nFrom Genes to Tumors: A Comparison of Dimension Reduction Techniques in Logistic Regression\nIn a course on High-Dimensional Data Analysis, I worked on classifying prostate tumor versus healthy tissue samples using gene expression data with over 6,000 variables. Comparing stepwise logistic regression, PCA, and sparse PCA, I learned how dimension reduction techniques can improve prediction while raising trade-offs between accuracy, parsimony, and interpretability.\n&lt;iframe src=“https://raw.githubusercontent.com/wardeiling/Sparse-PCA-and-Gene-Expression/blob/main/Manuscript_From_Genes-to-Tumors.pdf” width=“100%” height=“600px style=”border: none;“&gt;"
+  },
+  {
+    "objectID": "mywork.html#first-year-2023-2024",
+    "href": "mywork.html#first-year-2023-2024",
+    "title": "My Work",
+    "section": "First Year (2023-2024)",
+    "text": "First Year (2023-2024)\n\nBayesian Vector Autoregression\nFor a master’s course in Bayesian Statistics, I explored how Bayesian methods can improve vector autoregression (VAR(1)) models, which are often used to study dynamic processes such as mood and behavior over time. These models are powerful but can easily overfit when applied to the short time series common in psychology. To address this, I implemented and compared three Bayesian approaches that use different types of prior information to stabilize estimation. This project gave me valuable insights into the practical complications of applying Bayesian VAR models and how methodological choices shape the results. The full report is available below.\n\n\n\n\nLISS Income Imputations\nAs part of a course on Survey Data Analysis, I compared stepwise (single) imputation with multiple imputation in a high-dimensional dataset. This project illustrated the trade-offs between computational simplicity and statistical rigor, and showed me the practical challenges of handling missing data when many variables are involved."
+  },
+  {
+    "objectID": "mywork.html#from-genes-to-tumors-a-comparison-of-dimension-reduction-techniques-in-logistic-regression",
+    "href": "mywork.html#from-genes-to-tumors-a-comparison-of-dimension-reduction-techniques-in-logistic-regression",
+    "title": "My Work",
+    "section": "From Genes to Tumors: A Comparison of Dimension Reduction Techniques in Logistic Regression",
+    "text": "From Genes to Tumors: A Comparison of Dimension Reduction Techniques in Logistic Regression\nIn a course on High-Dimensional Data Analysis, I worked on classifying prostate tumor versus healthy tissue samples using gene expression data with over 6,000 variables. Comparing stepwise logistic regression, PCA, and sparse PCA, I learned how dimension reduction techniques can improve prediction while raising trade-offs between accuracy, parsimony, and interpretability."
+  },
+  {
+    "objectID": "mywork.html#master-thesis-project-2024-2025",
+    "href": "mywork.html#master-thesis-project-2024-2025",
+    "title": "My Work",
+    "section": "Master Thesis Project (2024-2025)",
+    "text": "Master Thesis Project (2024-2025)\nIn collaboration with prof. dr. Ellen Hamaker and dr. Jeroen Mulder, I examined how within-person and between-person effects can be estimated in clustered longitudinal data with binary predictors and outcomes. We compared the performance of multilevel models (MLMs) and generalized estimating equations (GEEs) across different disaggregation methods. Our simulations show that the commonly used person-mean centering approach—often regarded as the gold standard—can lead to problematic results when applied in MLMs with binary outcomes. The full manuscript is available below and comes delivered with replication instructions and supplementary materials.\n\n&lt;p&gt;This browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/multilevel-vs-gee-binary/master-thesis.pdf\"&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;"
+  },
+  {
+    "objectID": "mywork.html#from-genes-to-tumors-a-comparison-of-dimension-reduction-techniques-in-logistic-regression-2024",
+    "href": "mywork.html#from-genes-to-tumors-a-comparison-of-dimension-reduction-techniques-in-logistic-regression-2024",
+    "title": "My Work",
+    "section": "From Genes to Tumors: A Comparison of Dimension Reduction Techniques in Logistic Regression (2024)",
+    "text": "From Genes to Tumors: A Comparison of Dimension Reduction Techniques in Logistic Regression (2024)\nIn a course on High-Dimensional Data Analysis, I worked on classifying prostate tumor versus healthy tissue samples using gene expression data with over 6,000 variables. Comparing stepwise logistic regression, PCA, and sparse PCA, I learned how dimension reduction techniques can improve prediction while raising trade-offs between accuracy, parsimony, and interpretability.\n\n\n\nBayesian Vector Autoregression (2024)\nFor a master’s course in Bayesian Statistics, I explored how Bayesian methods can improve vector autoregression (VAR(1)) models, which are often used to study dynamic processes such as mood and behavior over time. These models are powerful but can easily overfit when applied to the short time series common in psychology. To address this, I implemented and compared three Bayesian approaches that use different types of prior information to stabilize estimation. This project gave me valuable insights into the practical complications of applying Bayesian VAR models and how methodological choices shape the results. The full report is available below.\n\n\n\n\nLISS Income Imputations (2023)\nAs part of a course on Survey Data Analysis, I compared stepwise (single) imputation with multiple imputation in a high-dimensional dataset. This project illustrated the trade-offs between computational simplicity and statistical rigor, and showed me the practical challenges of handling missing data when many variables are involved."
   }
 ]
