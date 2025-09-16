@@ -18,7 +18,28 @@
     "href": "mywork.html#from-genes-to-tumors-a-comparison-of-dimension-reduction-techniques-in-logistic-regression-2024",
     "title": "My Work",
     "section": "From Genes to Tumors: A Comparison of Dimension Reduction Techniques in Logistic Regression (2024)",
-    "text": "From Genes to Tumors: A Comparison of Dimension Reduction Techniques in Logistic Regression (2024)\nIn a course on High-Dimensional Data Analysis, I worked on classifying prostate tumor versus healthy tissue samples using gene expression data with over 6,000 variables. Comparing stepwise logistic regression, PCA, and sparse PCA, I learned how dimension reduction techniques can improve prediction while raising trade-offs between accuracy, parsimony, and interpretability.\n\n\nBayesian Vector Autoregression (2024)\nFor a master’s course in Bayesian Statistics, I explored how Bayesian methods can improve vector autoregression (VAR(1)) models, which are often used to study dynamic processes such as mood and behavior over time. These models are powerful but can easily overfit when applied to the short time series common in psychology. To address this, I implemented and compared three Bayesian approaches that use different types of prior information to stabilize estimation. This project gave me valuable insights into the practical complications of applying Bayesian VAR models and how methodological choices shape the results. The full report is available below.\n\n\n\nLISS Income Imputations (2023)\nAs part of a course on Survey Data Analysis, I compared stepwise (single) imputation with multiple imputation in a high-dimensional dataset. This project illustrated the trade-offs between computational simplicity and statistical rigor, and showed me the practical challenges of handling missing data when many variables are involved."
+    "text": "From Genes to Tumors: A Comparison of Dimension Reduction Techniques in Logistic Regression (2024)\nIn a course on High-Dimensional Data Analysis, I worked on classifying prostate tumor versus healthy tissue samples using gene expression data with over 6,000 variables. Comparing stepwise logistic regression, PCA, and sparse PCA, I learned how dimension reduction techniques can improve prediction while raising trade-offs between accuracy, parsimony, and interpretability.\n\nThis browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/Sparse-PCA-and-Gene-Expression/Manuscript_From-Genes-to-Tumors.pdf\"&gt;Download PDF&lt;/a&gt;."
+  },
+  {
+    "objectID": "mywork.html#bayesian-vector-autoregression-2024",
+    "href": "mywork.html#bayesian-vector-autoregression-2024",
+    "title": "My Work",
+    "section": "Bayesian Vector Autoregression (2024)",
+    "text": "Bayesian Vector Autoregression (2024)\nFor a master’s course in Bayesian Statistics, I explored how Bayesian methods can improve vector autoregression (VAR(1)) models, which are often used to study dynamic processes such as mood and behavior over time. These models are powerful but can easily overfit when applied to the short time series common in psychology. To address this, I implemented and compared three Bayesian approaches that use different types of prior information to stabilize estimation. This project gave me valuable insights into the practical complications of applying Bayesian VAR models and how methodological choices shape the results.\n\nThis browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/Bayesian-Vector-Autoregression/Report-Bayesian-Vector-Autogression.pdf\"&gt;Download PDF&lt;/a&gt;."
+  },
+  {
+    "objectID": "mywork.html#liss-income-imputations-2023",
+    "href": "mywork.html#liss-income-imputations-2023",
+    "title": "My Work",
+    "section": "LISS Income Imputations (2023)",
+    "text": "LISS Income Imputations (2023)\nAs part of a course on Survey Data Analysis, I compared stepwise (single) imputation with multiple imputation in a high-dimensional dataset. This project illustrated the trade-offs between computational simplicity and statistical rigor, and showed me the practical challenges of handling missing data when many variables are involved.\n\nThis browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/Project-LISS-income-imputation/final-report.pdf\"&gt;Download PDF&lt;/a&gt;."
+  },
+  {
+    "objectID": "mywork.html#bachelor-thesis-project-2023",
+    "href": "mywork.html#bachelor-thesis-project-2023",
+    "title": "My Work",
+    "section": "Bachelor Thesis Project (2023)",
+    "text": "Bachelor Thesis Project (2023)\nIn collaboration with Dr. Laura Bringmann and Yong Zhang, I explored how model misspecification in lag-1 vector autoregressive (VAR1) models affects predictions in psychopathology research. This thesis emphasized the importance of evaluating predictive accuracy, and highlighted the challenges of working with large datasets and violations of model assumptions. This collaboration led to a another project on model selection of AR-based models, which is currently under review at the British Journal of Mathematical and Statistical Psychology.\n\nThis browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/Bachelor-Thesis-VAR-Misspecification/BachelorThesis_Eiling_s3983919.pdf\"&gt;Download PDF&lt;/a&gt;."
   },
   {
     "objectID": "index.html",
