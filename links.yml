@@ -1,0 +1,16 @@
+# links.yml
+# ---------------------------------------------------------------------------
+# Per-paper links, keyed by your BibTeX citekey (must match publications.bib).
+# All fields are optional — only add the links that exist for a given paper.
+#
+# Fields:
+#   doi       — canonical DOI URL (shown as "Paper" button)
+#   preprint  — arXiv, bioRxiv, EarthArXiv, OSF, etc.
+#   code      — GitHub/GitLab/Zenodo code repository
+#   data      — data repository (Zenodo, OSF, Dryad, etc.)
+#   osf       — OSF project page (if distinct from data/preprint)
+# ---------------------------------------------------------------------------
+
+Zhang2025b:
+  doi: https://doi.org/10.1111/bmsp.70012
+  osf: https://osf.io/ahj3u/

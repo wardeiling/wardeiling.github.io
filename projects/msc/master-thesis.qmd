@@ -1,0 +1,23 @@
+---
+title: "MLMs vs. GEEs with Binary Outcomes"
+subtitle: "Master Thesis · Utrecht University"
+description: "Comparing performance of multilevel models and generalized estimating equations across disaggregation methods for clustered longitudinal binary data."
+date: 2025-06-25
+image: master-thesis.png
+categories:
+  - Thesis
+  - Multilevel Models
+  - GEE
+  - Binary Data
+  - Simulation Study
+---
+
+In collaboration with prof. dr. Ellen Hamaker and dr. Jeroen Mulder, I examined how within-person and between-person effects can be estimated in clustered longitudinal data with binary predictors and outcomes. We compared the performance of multilevel models (MLMs) and generalized estimating equations (GEEs) across different disaggregation methods. Our simulations show that the commonly used person-mean centering approach—often regarded as the gold standard—can lead to problematic results when applied in MLMs with binary outcomes.
+
+[Replication instructions](https://github.com/wardeiling/multilevel-vs-gee-binary) | [Supplementary materials](https://wardeiling.github.io/multilevel-vs-gee-binary/supplementary_materials.html) | [Open full text ↗](https://wardeiling.github.io/multilevel-vs-gee-binary/master-thesis.pdf){target="_blank"}
+
+<iframe src="https://wardeiling.github.io/multilevel-vs-gee-binary/master-thesis.pdf" width="100%" height="600px" style="border: none;">
+
+This browser does not support PDFs. Please download the PDF instead: <a href="https://wardeiling.github.io/multilevel-vs-gee-binary/master-thesis.pdf">Download PDF</a>.
+
+</iframe>

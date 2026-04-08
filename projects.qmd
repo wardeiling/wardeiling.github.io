@@ -1,0 +1,34 @@
+---
+title: "Projects"
+listing:
+  - id: msc-projects
+    contents: "projects/msc/*.qmd"
+    type: grid
+    sort: "date desc"
+    sort-ui: false
+    filter-ui: false
+    grid-columns: 2
+    date-format: "long"
+    fields: [image, date, title, subtitle, description, categories]
+  - id: bsc-projects
+    contents: "projects/bsc/*.qmd"
+    type: grid
+    sort: "date desc"
+    sort-ui: false
+    filter-ui: false
+    grid-columns: 2
+    date-format: "long"
+    fields: [image, date, title, subtitle, description, categories]
+---
+
+Welcome to my work page! Here you can find a list of some projects I have worked on.
+
+# MSc. Methodology and Statistics, Utrecht University
+
+::: {#msc-projects}
+:::
+
+# BSc. Psychology, University of Groningen
+
+::: {#bsc-projects}
+:::

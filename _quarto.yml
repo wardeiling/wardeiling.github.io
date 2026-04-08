@@ -1,5 +1,6 @@
 project:
   type: website
+  pre-render: scripts/bib_to_yaml.py
 
 website:
   title: "Ward Eiling"
@@ -7,16 +8,31 @@ website:
     left:
       - href: index.qmd
         text: "About Me"
-      - href: mywork.qmd
-        text: "My Work"
+      - href: publications.qmd
+        text: "Publications"
+      - href: projects.qmd
+        text: "Projects"
       - href: resume.pdf
         text: "Resume"
+    right: 
+      - icon: github
+        href: https://github.com/wardeiling
+        target: _blank
+
+    page-navigation: true    
+    open-graph: true
 
 format:
   html:
     theme: cosmo
     css: styles.css
+    page-layout: full
     toc: true
+    footnotes-hover: true
+    code-copy: true
+    code-link: true
+    code-overflow: wrap
+    fig-align: center
 
 
 

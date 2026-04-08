@@ -11,6 +11,10 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/wardeiling
+    - text: "{{< ai orcid >}} ORCID"
+      href: https://orcid.org/0009-0007-8114-9497
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.com/citations?user=RcebMAIAAAAJ&hl=en
 ---
 
 :::{#hero-heading}

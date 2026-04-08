@@ -1,1 +1,130 @@
-/* css styles */
+/* styles.css */
+
+/* ── Publication listing ────────────────────────────────────────────────── */
+
+.pub-entry {
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.pub-entry:last-child {
+  border-bottom: none;
+}
+
+.pub-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+.pub-authors {
+  color: #555;
+  margin-bottom: 0.2rem;
+}
+
+.pub-venue {
+  margin-bottom: 0.4rem;
+}
+
+.pub-abstract {
+  margin-bottom: 0.5rem;
+}
+
+.pub-abstract summary {
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.pub-abstract p {
+  font-size: 0.9rem;
+  color: #444;
+  margin-top: 0.3rem;
+}
+
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.pub-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.82rem;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #6c757d;
+  transition: background-color 0.15s;
+}
+
+.pub-btn:hover {
+  background-color: #5a6268;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Category badges in publication listing */
+.pub-entry .listing-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.pub-entry .listing-category {
+  font-size: 0.78rem;
+  padding: 0.1rem 0.45rem;
+  border-radius: 3px;
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+/* BibTeX citation block */
+.pub-bibtex {
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.pub-bibtex-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 0.6rem;
+  background-color: #f1f3f5;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.pub-btn-copy {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 0.78rem;
+  color: #495057;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+}
+
+.pub-btn-copy:hover {
+  background-color: #dee2e6;
+}
+
+.pub-bibtex-code {
+  margin: 0;
+  padding: 0.5rem 0.6rem;
+  font-size: 0.78rem;
+  background-color: #f8f9fa;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.pub-btn-cite {
+  border: none;
+  cursor: pointer;
+}

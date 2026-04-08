@@ -1,0 +1,36 @@
+---
+title: "Publications"
+listing:
+  id: publications
+  contents:
+    - publications-listing.yml
+  template: _ejs/publication.ejs.md
+  sort:
+    - "date desc"
+  sort-ui: [date, title]
+  filter-ui: true
+  categories: true
+  page-size: 20
+  field-display-names:
+    date: "Year"
+    title: "Title"
+---
+
+<!--
+  How this page works
+  ═══════════════════
+  1. publications.bib        — exported/synced from Zotero (Better BibTeX)
+  2. links.yml               — per-paper links keyed by BibTeX citekey
+  3. scripts/bib_to_yaml.py  — pre-render script that combines 1 + 2
+                                into publications-listing.yml
+  4. _ejs/publication.ejs.md — custom listing template
+
+  Adding a new publication:
+    a. Add / sync the entry in Zotero → publications.bib updates
+    b. (Optional) add links in links.yml using the citekey
+    c. Run `quarto render` — the pre-render script regenerates
+       _publications.yml automatically
+-->
+
+::: {#publications}
+:::

@@ -5,3 +5,5 @@
 
 /.quarto/
 /_site/
+/publications-listing.yml
+**/*.quarto_ipynb
