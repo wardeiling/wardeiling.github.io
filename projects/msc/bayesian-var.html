@@ -2,13 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2024-06-19">
+<meta name="description" content="Applying Bayesian priors to stabilize VAR(1) estimation for short psychological time series, comparing three approaches with different types of prior information.">
 
-<title>My Work – Ward Eiling</title>
+<title>Bayesian Vector Autoregression – Ward Eiling</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -23,24 +28,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1713c1db1ad41a796903378fc9ac7b2b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-3bb95fcf13a991dba0133ab2e30b42a7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -80,9 +84,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Ward Eiling</span>
     </a>
   </div>
@@ -93,16 +95,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./mywork.html" aria-current="page"> 
-<span class="menu-text">My Work</span></a>
+    <a class="nav-link" href="../../publications.html"> 
+<span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resume.pdf"> 
+    <a class="nav-link" href="../../projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../resume.pdf"> 
 <span class="menu-text">Resume</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/wardeiling" target="_blank"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -112,41 +125,42 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#msc.-methodology-and-statistics-utrecht-university" id="toc-msc.-methodology-and-statistics-utrecht-university" class="nav-link active" data-scroll-target="#msc.-methodology-and-statistics-utrecht-university">MSc. Methodology and Statistics, Utrecht University</a>
-  <ul class="collapse">
-  <li><a href="#master-thesis-project-2024-2025" id="toc-master-thesis-project-2024-2025" class="nav-link" data-scroll-target="#master-thesis-project-2024-2025">Master Thesis Project (2024-2025)</a></li>
-  <li><a href="#from-genes-to-tumors-a-comparison-of-dimension-reduction-techniques-in-logistic-regression-2024" id="toc-from-genes-to-tumors-a-comparison-of-dimension-reduction-techniques-in-logistic-regression-2024" class="nav-link" data-scroll-target="#from-genes-to-tumors-a-comparison-of-dimension-reduction-techniques-in-logistic-regression-2024">From Genes to Tumors: A Comparison of Dimension Reduction Techniques in Logistic Regression (2024)</a></li>
-  <li><a href="#bayesian-vector-autoregression-2024" id="toc-bayesian-vector-autoregression-2024" class="nav-link" data-scroll-target="#bayesian-vector-autoregression-2024">Bayesian Vector Autoregression (2024)</a></li>
-  <li><a href="#liss-income-imputations-2023" id="toc-liss-income-imputations-2023" class="nav-link" data-scroll-target="#liss-income-imputations-2023">LISS Income Imputations (2023)</a></li>
-  </ul></li>
-  <li><a href="#bsc.-psychology-university-of-groningen" id="toc-bsc.-psychology-university-of-groningen" class="nav-link" data-scroll-target="#bsc.-psychology-university-of-groningen">BSc. Psychology, University of Groningen</a>
-  <ul class="collapse">
-  <li><a href="#bachelor-thesis-project-2023" id="toc-bachelor-thesis-project-2023" class="nav-link" data-scroll-target="#bachelor-thesis-project-2023">Bachelor Thesis Project (2023)</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">My Work</h1>
+<h1 class="title">Bayesian Vector Autoregression</h1>
+<p class="subtitle lead">Course Project · Bayesian Statistics</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Bayesian Statistics</div>
+    <div class="quarto-category">VAR Models</div>
+    <div class="quarto-category">Time Series</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Applying Bayesian priors to stabilize VAR(1) estimation for short psychological time series, comparing three approaches with different types of prior information.
+  </div>
 </div>
 
 
-
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 19, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -156,50 +170,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Welcome to my work page! Here you can find a list of some projects I have worked on.</p>
-<section id="msc.-methodology-and-statistics-utrecht-university" class="level1">
-<h1>MSc. Methodology and Statistics, Utrecht University</h1>
-<section id="master-thesis-project-2024-2025" class="level2">
-<h2 class="anchored" data-anchor-id="master-thesis-project-2024-2025">Master Thesis Project (2024-2025)</h2>
-<p>In collaboration with prof. dr. Ellen Hamaker and dr. Jeroen Mulder, I examined how within-person and between-person effects can be estimated in clustered longitudinal data with binary predictors and outcomes. We compared the performance of multilevel models (MLMs) and generalized estimating equations (GEEs) across different disaggregation methods. Our simulations show that the commonly used person-mean centering approach—often regarded as the gold standard—can lead to problematic results when applied in MLMs with binary outcomes. The full manuscript is available below and comes delivered with <a href="https://github.com/wardeiling/multilevel-vs-gee-binary">replication instructions</a> and <a href="https://wardeiling.github.io/multilevel-vs-gee-binary/supplementary_materials.html">supplementary materials</a>.</p>
-<iframe src="https://wardeiling.github.io/multilevel-vs-gee-binary/master-thesis.pdf" width="100%" height="600px" style="border: none;">
-<p>This browser does not support PDFs. Please download the PDF instead: <a href="https://wardeiling.github.io/multilevel-vs-gee-binary/master-thesis.pdf">Download PDF</a>.</p>
-</iframe>
-</section>
-<section id="from-genes-to-tumors-a-comparison-of-dimension-reduction-techniques-in-logistic-regression-2024" class="level2">
-<h2 class="anchored" data-anchor-id="from-genes-to-tumors-a-comparison-of-dimension-reduction-techniques-in-logistic-regression-2024">From Genes to Tumors: A Comparison of Dimension Reduction Techniques in Logistic Regression (2024)</h2>
-<p>In a course on <em>High-Dimensional Data Analysis</em>, I worked on classifying prostate tumor versus healthy tissue samples using gene expression data with over 6,000 variables. Comparing stepwise logistic regression, PCA, and sparse PCA, I learned how dimension reduction techniques can improve prediction while raising trade-offs between accuracy, parsimony, and interpretability.</p>
-<iframe src="https://wardeiling.github.io/Sparse-PCA-and-Gene-Expression/Manuscript_From-Genes-to-Tumors.pdf" width="100%" height="600px" style="border: none;">
-This browser does not support PDFs. Please download the PDF instead: <a href="https://wardeiling.github.io/Sparse-PCA-and-Gene-Expression/Manuscript_From-Genes-to-Tumors.pdf">Download PDF</a>.
-</iframe>
-</section>
-<section id="bayesian-vector-autoregression-2024" class="level2">
-<h2 class="anchored" data-anchor-id="bayesian-vector-autoregression-2024">Bayesian Vector Autoregression (2024)</h2>
 <p>For a master’s course in <em>Bayesian Statistics</em>, I explored how Bayesian methods can improve vector autoregression (VAR(1)) models, which are often used to study dynamic processes such as mood and behavior over time. These models are powerful but can easily overfit when applied to the short time series common in psychology. To address this, I implemented and compared three Bayesian approaches that use different types of prior information to stabilize estimation. This project gave me valuable insights into the practical complications of applying Bayesian VAR models and how methodological choices shape the results.</p>
+<p><a href="https://wardeiling.github.io/Bayesian-Vector-Autoregression/Report-Bayesian-Vector-Autogression.pdf" target="_blank">Open full text ↗</a></p>
 <iframe src="https://wardeiling.github.io/Bayesian-Vector-Autoregression/Report-Bayesian-Vector-Autogression.pdf" width="100%" height="600px" style="border: none;">
 This browser does not support PDFs. Please download the PDF instead: <a href="https://wardeiling.github.io/Bayesian-Vector-Autoregression/Report-Bayesian-Vector-Autogression.pdf">Download PDF</a>.
 </iframe>
-</section>
-<section id="liss-income-imputations-2023" class="level2">
-<h2 class="anchored" data-anchor-id="liss-income-imputations-2023">LISS Income Imputations (2023)</h2>
-<p>As part of a course on <em>Survey Data Analysis</em>, I compared stepwise (single) imputation with multiple imputation in a high-dimensional dataset. This project illustrated the trade-offs between computational simplicity and statistical rigor, and showed me the practical challenges of handling missing data when many variables are involved.</p>
-<iframe src="https://wardeiling.github.io/Project-LISS-income-imputation/final-report.pdf" width="100%" height="600px" style="border: none;">
-This browser does not support PDFs. Please download the PDF instead: <a href="https://wardeiling.github.io/Project-LISS-income-imputation/final-report.pdf">Download PDF</a>.
-</iframe>
-</section>
-</section>
-<section id="bsc.-psychology-university-of-groningen" class="level1">
-<h1>BSc. Psychology, University of Groningen</h1>
-<section id="bachelor-thesis-project-2023" class="level2">
-<h2 class="anchored" data-anchor-id="bachelor-thesis-project-2023">Bachelor Thesis Project (2023)</h2>
-<p>In collaboration with Dr.&nbsp;Laura Bringmann and Yong Zhang, I explored how model misspecification in lag-1 vector autoregressive (VAR1) models affects predictions in psychopathology research. This thesis emphasized the importance of evaluating predictive accuracy, and highlighted the challenges of working with large datasets and violations of model assumptions. This collaboration led to a another project on model selection of AR-based models, which is currently under review at the British Journal of Mathematical and Statistical Psychology.</p>
-<iframe src="https://wardeiling.github.io/Bachelor-Thesis-VAR-Misspecification/BachelorThesis_Eiling_s3983919.pdf" width="100%" height="600px" style="border: none;">
-This browser does not support PDFs. Please download the PDF instead: <a href="https://wardeiling.github.io/Bachelor-Thesis-VAR-Misspecification/BachelorThesis_Eiling_s3983919.pdf">Download PDF</a>.
-</iframe>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

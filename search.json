@@ -1,51 +1,58 @@
 [
   {
-    "objectID": "mywork.html",
-    "href": "mywork.html",
-    "title": "My Work",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "Welcome to my work page! Here you can find a list of some projects I have worked on."
-  },
-  {
-    "objectID": "mywork.html#master-thesis-project-2024-2025",
-    "href": "mywork.html#master-thesis-project-2024-2025",
-    "title": "My Work",
-    "section": "Master Thesis Project (2024-2025)",
-    "text": "Master Thesis Project (2024-2025)\nIn collaboration with prof. dr. Ellen Hamaker and dr. Jeroen Mulder, I examined how within-person and between-person effects can be estimated in clustered longitudinal data with binary predictors and outcomes. We compared the performance of multilevel models (MLMs) and generalized estimating equations (GEEs) across different disaggregation methods. Our simulations show that the commonly used person-mean centering approach—often regarded as the gold standard—can lead to problematic results when applied in MLMs with binary outcomes. The full manuscript is available below and comes delivered with replication instructions and supplementary materials.\n\n&lt;p&gt;This browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/multilevel-vs-gee-binary/master-thesis.pdf\"&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;"
-  },
-  {
-    "objectID": "mywork.html#from-genes-to-tumors-a-comparison-of-dimension-reduction-techniques-in-logistic-regression-2024",
-    "href": "mywork.html#from-genes-to-tumors-a-comparison-of-dimension-reduction-techniques-in-logistic-regression-2024",
-    "title": "My Work",
-    "section": "From Genes to Tumors: A Comparison of Dimension Reduction Techniques in Logistic Regression (2024)",
-    "text": "From Genes to Tumors: A Comparison of Dimension Reduction Techniques in Logistic Regression (2024)\nIn a course on High-Dimensional Data Analysis, I worked on classifying prostate tumor versus healthy tissue samples using gene expression data with over 6,000 variables. Comparing stepwise logistic regression, PCA, and sparse PCA, I learned how dimension reduction techniques can improve prediction while raising trade-offs between accuracy, parsimony, and interpretability.\n\nThis browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/Sparse-PCA-and-Gene-Expression/Manuscript_From-Genes-to-Tumors.pdf\"&gt;Download PDF&lt;/a&gt;."
-  },
-  {
-    "objectID": "mywork.html#bayesian-vector-autoregression-2024",
-    "href": "mywork.html#bayesian-vector-autoregression-2024",
-    "title": "My Work",
-    "section": "Bayesian Vector Autoregression (2024)",
-    "text": "Bayesian Vector Autoregression (2024)\nFor a master’s course in Bayesian Statistics, I explored how Bayesian methods can improve vector autoregression (VAR(1)) models, which are often used to study dynamic processes such as mood and behavior over time. These models are powerful but can easily overfit when applied to the short time series common in psychology. To address this, I implemented and compared three Bayesian approaches that use different types of prior information to stabilize estimation. This project gave me valuable insights into the practical complications of applying Bayesian VAR models and how methodological choices shape the results.\n\nThis browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/Bayesian-Vector-Autoregression/Report-Bayesian-Vector-Autogression.pdf\"&gt;Download PDF&lt;/a&gt;."
-  },
-  {
-    "objectID": "mywork.html#liss-income-imputations-2023",
-    "href": "mywork.html#liss-income-imputations-2023",
-    "title": "My Work",
-    "section": "LISS Income Imputations (2023)",
-    "text": "LISS Income Imputations (2023)\nAs part of a course on Survey Data Analysis, I compared stepwise (single) imputation with multiple imputation in a high-dimensional dataset. This project illustrated the trade-offs between computational simplicity and statistical rigor, and showed me the practical challenges of handling missing data when many variables are involved.\n\nThis browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/Project-LISS-income-imputation/final-report.pdf\"&gt;Download PDF&lt;/a&gt;."
-  },
-  {
-    "objectID": "mywork.html#bachelor-thesis-project-2023",
-    "href": "mywork.html#bachelor-thesis-project-2023",
-    "title": "My Work",
-    "section": "Bachelor Thesis Project (2023)",
-    "text": "Bachelor Thesis Project (2023)\nIn collaboration with Dr. Laura Bringmann and Yong Zhang, I explored how model misspecification in lag-1 vector autoregressive (VAR1) models affects predictions in psychopathology research. This thesis emphasized the importance of evaluating predictive accuracy, and highlighted the challenges of working with large datasets and violations of model assumptions. This collaboration led to a another project on model selection of AR-based models, which is currently under review at the British Journal of Mathematical and Statistical Psychology.\n\nThis browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/Bachelor-Thesis-VAR-Misspecification/BachelorThesis_Eiling_s3983919.pdf\"&gt;Download PDF&lt;/a&gt;."
+    "text": "Order By\n      Default\n      \n        Year - Oldest\n      \n      \n        Year - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\nNo matching items\n\n\n\n  \n    An Investigation into In-Sample and out-of-Sample Model Selection for Nonstationary Autoregressive Models\n    Yong Zhang, Anja F. Ernst, Ginette Lafit, Ward B. Eiling, Laura F. Bringmann\n    \n      British Journal of Mathematical and Statistical Psychology\n      (2025)\n    \n\n    \n    \n      Abstract\n      The stationary autoregressive model forms an important base of time-series analysis in today's psychology research. Diverse nonstationary extensions of this model are developed to capture different types of changing temporal dynamics. However, researchers do not always have a solid theoretical base to rely on for deciding a-priori which of these nonstationary models is the most appropriate for a given time-series. In this case, correct model selection becomes a crucial step to ensure an accurate understanding of the temporal dynamics. This study consists of two main parts. First, with a simulation study, we investigated the performance of in-sample (information criteria) and out-of-sample (cross-validation, out-of-sample prediction) model selection techniques in identifying six different univariate nonstationary processes. We found that the Bayesian information criteria (BIC) has an overall optimal performance whereas other techniques' performance depends largely on the time-series' length. Then, we re-analysed a 239-day-long time-series of positive and negative affect to illustrate the model selection process. Combining the simulation results and practical considerations from the empirical analysis, we argue that model selection for nonstationary time-series should not completely rely on data-driven approaches. Instead, more theory-driven approaches where researchers actively integrate their qualitative understanding will inform the data-driven approaches.\n    \n    \n\n    \n      \n        \n           Paper\n        \n      \n      \n      \n      \n      \n        \n           OSF\n        \n      \n      \n      \n      \n        \n           Cite\n        \n      \n    \n\n    \n    \n      \n        BibTeX\n        Copy\n      \n      @article{Zhang2025b,\n  author = {Zhang, Yong and Ernst, Anja F. and Lafit, Ginette and Eiling, Ward B. and Bringmann, Laura F.},\n  title = {An Investigation into In-Sample and out-of-Sample Model Selection for Nonstationary Autoregressive Models},\n  year = {2025},\n  journal = {British Journal of Mathematical and Statistical Psychology},\n  volume = {n/a},\n  number = {n/a},\n  doi = {10.1111/bmsp.70012}\n}\n\n    \n    \n\n    \n    \n      \n        cross-validation\n      \n        idiographic analysis\n      \n        information criteria\n      \n        model selection\n      \n        nonstationarity\n      \n        predictive accuracy\n      \n        time-series\n      \n    \n    \n  \n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Ward B. Eiling",
     "section": "",
-    "text": "Linkedin\n  \n  \n    \n     GitHub\n  \n\n  \n  \nI am a PhD student at Tilburg University’s Department of Methodology and Statistics. My PhD focuses on utilizing causal discovery and machine learning methods to enhance theory formation in the social sciences. Before this, I completed the research master’s program in Methodology and Statistics at Utrecht University.\nWhen I am not programming or writing, I enjoy playing the electric guitar, mountain biking, going on hikes and reading philosophy books (about mindfulness and stoicism), as well as novel. Feel free to connect with me on goodreads :)."
+    "text": "Linkedin\n  \n  \n    \n     GitHub\n  \n  \n      ORCID\n  \n  \n      Google Scholar\n  \n\n  \n  \nI am a PhD student at Tilburg University’s Department of Methodology and Statistics. My PhD focuses on utilizing causal discovery and machine learning methods to enhance theory formation in the social sciences. Before this, I completed the research master’s program in Methodology and Statistics at Utrecht University.\nWhen I am not programming or writing, I enjoy playing the electric guitar, mountain biking, going on hikes and reading philosophy books (about mindfulness and stoicism), as well as novel. Feel free to connect with me on goodreads :)."
+  },
+  {
+    "objectID": "projects/msc/bayesian-var.html",
+    "href": "projects/msc/bayesian-var.html",
+    "title": "Bayesian Vector Autoregression",
+    "section": "",
+    "text": "For a master’s course in Bayesian Statistics, I explored how Bayesian methods can improve vector autoregression (VAR(1)) models, which are often used to study dynamic processes such as mood and behavior over time. These models are powerful but can easily overfit when applied to the short time series common in psychology. To address this, I implemented and compared three Bayesian approaches that use different types of prior information to stabilize estimation. This project gave me valuable insights into the practical complications of applying Bayesian VAR models and how methodological choices shape the results.\nOpen full text ↗\n\nThis browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/Bayesian-Vector-Autoregression/Report-Bayesian-Vector-Autogression.pdf\"&gt;Download PDF&lt;/a&gt;."
+  },
+  {
+    "objectID": "projects/msc/genes-to-tumors.html",
+    "href": "projects/msc/genes-to-tumors.html",
+    "title": "From Genes to Tumors: Dimension Reduction in Logistic Regression",
+    "section": "",
+    "text": "In a course on High-Dimensional Data Analysis, I worked on classifying prostate tumor versus healthy tissue samples using gene expression data with over 6,000 variables. Comparing stepwise logistic regression, PCA, and sparse PCA, I learned how dimension reduction techniques can improve prediction while raising trade-offs between accuracy, parsimony, and interpretability.\nOpen full text ↗\n\nThis browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/Sparse-PCA-and-Gene-Expression/Manuscript_From-Genes-to-Tumors.pdf\"&gt;Download PDF&lt;/a&gt;."
+  },
+  {
+    "objectID": "projects/bsc/bachelor-thesis.html",
+    "href": "projects/bsc/bachelor-thesis.html",
+    "title": "Model Misspecification in VAR Models for Psychopathology",
+    "section": "",
+    "text": "In collaboration with Dr. Laura Bringmann and Yong Zhang, I explored how model misspecification in lag-1 vector autoregressive (VAR1) models affects predictions in psychopathology research. This thesis emphasized the importance of evaluating predictive accuracy, and highlighted the challenges of working with large datasets and violations of model assumptions. This collaboration led to another project on model selection of AR-based models, which is currently under review at the British Journal of Mathematical and Statistical Psychology.\nOpen full text ↗\n\nThis browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/Bachelor-Thesis-VAR-Misspecification/BachelorThesis_Eiling_s3983919.pdf\"&gt;Download PDF&lt;/a&gt;."
+  },
+  {
+    "objectID": "projects/msc/master-thesis.html",
+    "href": "projects/msc/master-thesis.html",
+    "title": "MLMs vs. GEEs with Binary Outcomes",
+    "section": "",
+    "text": "In collaboration with prof. dr. Ellen Hamaker and dr. Jeroen Mulder, I examined how within-person and between-person effects can be estimated in clustered longitudinal data with binary predictors and outcomes. We compared the performance of multilevel models (MLMs) and generalized estimating equations (GEEs) across different disaggregation methods. Our simulations show that the commonly used person-mean centering approach—often regarded as the gold standard—can lead to problematic results when applied in MLMs with binary outcomes.\nReplication instructions | Supplementary materials | Open full text ↗\n\n&lt;p&gt;This browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/multilevel-vs-gee-binary/master-thesis.pdf\"&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;"
+  },
+  {
+    "objectID": "projects/msc/liss-imputation.html",
+    "href": "projects/msc/liss-imputation.html",
+    "title": "LISS Income Imputations",
+    "section": "",
+    "text": "As part of a course on Survey Data Analysis, I compared stepwise (single) imputation with multiple imputation in a high-dimensional dataset. This project illustrated the trade-offs between computational simplicity and statistical rigor, and showed me the practical challenges of handling missing data when many variables are involved.\nOpen full text ↗\n\nThis browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/Project-LISS-income-imputation/final-report.pdf\"&gt;Download PDF&lt;/a&gt;."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Welcome to my work page! Here you can find a list of some projects I have worked on.\n\nMSc. Methodology and Statistics, Utrecht University\n\n\n\n\n\n\n\n\n\n\nMLMs vs. GEEs with Binary Outcomes\n\n\nMaster Thesis · Utrecht University\n\n\n\nThesis\n\nMultilevel Models\n\nGEE\n\nBinary Data\n\nSimulation Study\n\n\n\nComparing performance of multilevel models and generalized estimating equations across disaggregation methods for clustered longitudinal binary data.\n\n\n\nJune 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrom Genes to Tumors: Dimension Reduction in Logistic Regression\n\n\nCourse Project · High-Dimensional Data Analysis\n\n\n\nLogistic Regression\n\nPCA\n\nSparse PCA\n\nHigh-Dimensional Data\n\n\n\nClassifying prostate tumor vs. healthy tissue samples using gene expression data with 6,000+ variables, comparing stepwise logistic regression, PCA, and sparse PCA.\n\n\n\nJanuary 16, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nBayesian Vector Autoregression\n\n\nCourse Project · Bayesian Statistics\n\n\n\nBayesian Statistics\n\nVAR Models\n\nTime Series\n\n\n\nApplying Bayesian priors to stabilize VAR(1) estimation for short psychological time series, comparing three approaches with different types of prior information.\n\n\n\nJune 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nLISS Income Imputations\n\n\nCourse Project · Survey Data Analysis\n\n\n\nMissing Data\n\nMultiple Imputation\n\nSurvey Data\n\n\n\nComparing single versus multiple imputation in a high-dimensional LISS panel dataset, illustrating trade-offs between computational simplicity and statistical rigor.\n\n\n\nJanuary 15, 2024\n\n\n\n\n\n\nNo matching items\n\n\n\nBSc. Psychology, University of Groningen\n\n\n\n\n\n\n\n\n\n\nModel Misspecification in VAR Models for Psychopathology\n\n\nBachelor Thesis · University of Groningen\n\n\n\nThesis\n\nVAR Models\n\nModel Misspecification\n\nPsychopathology\n\nTime Series\n\n\n\nExploring how model misspecification in lag-1 VAR models affects predictive performance in psychopathology research, in collaboration with Dr. Laura Bringmann and Yong Zhang.\n\n\n\nJuly 13, 2023\n\n\n\n\n\n\nNo matching items"
   }
 ]

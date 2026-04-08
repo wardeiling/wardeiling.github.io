@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/publications.html",
+    "items": []
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/msc/master-thesis.html",
+      "/projects/msc/genes-to-tumors.html",
+      "/projects/msc/bayesian-var.html",
+      "/projects/msc/liss-imputation.html",
+      "/projects/bsc/bachelor-thesis.html"
+    ]
+  }
+]

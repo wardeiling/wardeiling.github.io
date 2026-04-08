@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://wardeiling.github.io/mywork.html</loc>
-    <lastmod>2025-09-16T12:33:43.879Z</lastmod>
+    <loc>https://wardeiling.github.io/publications.html</loc>
+    <lastmod>2026-04-08T12:11:32.207Z</lastmod>
   </url>
   <url>
     <loc>https://wardeiling.github.io/index.html</loc>
-    <lastmod>2025-09-16T12:33:43.879Z</lastmod>
+    <lastmod>2026-04-08T12:11:32.203Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wardeiling.github.io/projects/msc/bayesian-var.html</loc>
+    <lastmod>2026-04-08T12:11:32.205Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wardeiling.github.io/projects/msc/genes-to-tumors.html</loc>
+    <lastmod>2026-04-08T12:11:32.206Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wardeiling.github.io/projects/bsc/bachelor-thesis.html</loc>
+    <lastmod>2026-04-08T12:11:32.204Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wardeiling.github.io/projects/msc/master-thesis.html</loc>
+    <lastmod>2026-04-08T12:11:32.207Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wardeiling.github.io/projects/msc/liss-imputation.html</loc>
+    <lastmod>2026-04-08T12:11:32.206Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wardeiling.github.io/projects.html</loc>
+    <lastmod>2026-04-08T12:11:32.203Z</lastmod>
   </url>
 </urlset>

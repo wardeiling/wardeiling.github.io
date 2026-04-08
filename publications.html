@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Ward B. Eiling – Ward Eiling</title>
+<title>Publications – Ward Eiling</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,17 +33,18 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-3bb95fcf13a991dba0133ab2e30b42a7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +72,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-publications .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-year','listing-date','listing-journal','listing-volume','listing-number','listing-categories','listing-description','listing-doi_url','listing-osf_url','listing-bibtex',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-year","listing-date","listing-journal","listing-volume","listing-number","listing-categories","listing-description","listing-doi_url","listing-osf_url","listing-bibtex"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-publications'] = new List('listing-publications', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -94,11 +153,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link active" href="./publications.html" aria-current="page"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
@@ -127,53 +186,171 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y3Jvc3MtdmFsaWRhdGlvbg==">cross-validation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aWRpb2dyYXBoaWMlMjBhbmFseXNpcw==">idiographic analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW5mb3JtYXRpb24lMjBjcml0ZXJpYQ==">information criteria <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bW9kZWwlMjBzZWxlY3Rpb24=">model selection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bm9uc3RhdGlvbmFyaXR5">nonstationarity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJlZGljdGl2ZSUyMGFjY3VyYWN5">predictive accuracy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dGltZS1zZXJpZXM=">time-series <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
-
-
-
-<div class="quarto-about-trestles column-page">
-  <div class="about-entity">
-    <img src="wardeiling-forest.jpg" class="about-image
-  rounded " style="width: 20em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ward B. Eiling</h1>
+<h1 class="title">Publications</h1>
 </div>
-<div class="quarto-title-meta column-page">
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://www.linkedin.com/in/wardeiling/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">Linkedin</span>
-  </a>
-  <a href="https://github.com/wardeiling" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="https://orcid.org/0009-0007-8114-9497" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="ai  ai-orcid" aria-label="orcid"></i> ORCID</span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=RcebMAIAAAAJ&amp;hl=en" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="ai  ai-google-scholar" aria-label="google-scholar"></i> Google Scholar</span>
-  </a>
-</div>
+
+
+<!--
+  How this page works
+  ═══════════════════
+  1. publications.bib        — exported/synced from Zotero (Better BibTeX)
+  2. links.yml               — per-paper links keyed by BibTeX citekey
+  3. scripts/bib_to_yaml.py  — pre-render script that combines 1 + 2
+                                into publications-listing.yml
+  4. _ejs/publication.ejs.md — custom listing template
+
+  Adding a new publication:
+    a. Add / sync the entry in Zotero → publications.bib updates
+    b. (Optional) add links in links.yml using the citekey
+    c. Run `quarto render` — the pre-render script regenerates
+       _publications.yml automatically
+-->
+<div id="listing-publications" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-publications-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-publications'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-date-sort" data-direction="asc">
+        Year - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Year - Newest
+      </option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+    </select>
   </div>
-  <div class="about-contents"><div id="hero-heading">
-<p>I am a PhD student at Tilburg University’s <a href="https://www.tilburguniversity.edu/about/schools/socialsciences/organization/departments/methodology-statistics">Department of Methodology and Statistics</a>. My PhD focuses on utilizing causal discovery and machine learning methods to enhance theory formation in the social sciences. Before this, I completed the research master’s program in Methodology and Statistics at Utrecht University.</p>
-<p>When I am not programming or writing, I enjoy playing the electric guitar, mountain biking, going on hikes and reading philosophy books (about mindfulness and stoicism), as well as novel. Feel free to connect with me on <a href="https://www.goodreads.com/user/show/149844375-ward">goodreads</a> :).</p>
-
-
-</div></div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
+<div class="pub-listing list">
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+
+<div class="quarto-post pub-entry" data-index="0" data-categories="Y3Jvc3MtdmFsaWRhdGlvbiUyQ2lkaW9ncmFwaGljJTIwYW5hbHlzaXMlMkNpbmZvcm1hdGlvbiUyMGNyaXRlcmlhJTJDbW9kZWwlMjBzZWxlY3Rpb24lMkNub25zdGF0aW9uYXJpdHklMkNwcmVkaWN0aXZlJTIwYWNjdXJhY3klMkN0aW1lLXNlcmllcw==" data-listing-date-sort="1735689600000">
+  <div class="pub-body">
+    <h3 class="no-anchor listing-title pub-title">An Investigation into In-Sample and out-of-Sample Model Selection for Nonstationary Autoregressive Models</h3>
+    <div class="listing-author pub-authors">Yong Zhang, Anja F. Ernst, Ginette Lafit, Ward B. Eiling, Laura F. Bringmann</div>
+    <div class="pub-venue">
+      <em>British Journal of Mathematical and Statistical Psychology</em>
+      (<span class="listing-date">2025</span>)
+    </div>
+
+    
+    <details class="pub-abstract">
+      <summary>Abstract</summary>
+      <p class="listing-description">The stationary autoregressive model forms an important base of time-series analysis in today's psychology research. Diverse nonstationary extensions of this model are developed to capture different types of changing temporal dynamics. However, researchers do not always have a solid theoretical base to rely on for deciding a-priori which of these nonstationary models is the most appropriate for a given time-series. In this case, correct model selection becomes a crucial step to ensure an accurate understanding of the temporal dynamics. This study consists of two main parts. First, with a simulation study, we investigated the performance of in-sample (information criteria) and out-of-sample (cross-validation, out-of-sample prediction) model selection techniques in identifying six different univariate nonstationary processes. We found that the Bayesian information criteria (BIC) has an overall optimal performance whereas other techniques' performance depends largely on the time-series' length. Then, we re-analysed a 239-day-long time-series of positive and negative affect to illustrate the model selection process. Combining the simulation results and practical considerations from the empirical analysis, we argue that model selection for nonstationary time-series should not completely rely on data-driven approaches. Instead, more theory-driven approaches where researchers actively integrate their qualitative understanding will inform the data-driven approaches.</p>
+    </details>
+    
+
+    <div class="pub-links">
+      
+        <a href="https://doi.org/10.1111/bmsp.70012" class="pub-btn" target="_blank" rel="noopener">
+          <i class="bi bi-journal-text"></i> Paper
+        </a>
+      
+      
+      
+      
+      
+        <a href="https://osf.io/ahj3u/" class="pub-btn" target="_blank" rel="noopener">
+          <i class="bi bi-box-arrow-up-right"></i> OSF
+        </a>
+      
+      
+      
+      
+        <button class="pub-btn pub-btn-cite" onclick="this.parentElement.nextElementSibling.classList.toggle('d-none')" aria-label="Show BibTeX citation">
+          <i class="bi bi-quote"></i> Cite
+        </button>
+      
+    </div>
+
+    
+    <div class="pub-bibtex d-none">
+      <div class="pub-bibtex-header">
+        <span>BibTeX</span>
+        <button class="pub-btn-copy" onclick="navigator.clipboard.writeText(this.parentElement.nextElementSibling.textContent.trim());this.textContent='Copied!';setTimeout(()=>this.textContent='Copy',1500)" aria-label="Copy BibTeX to clipboard">Copy</button>
+      </div>
+      <pre class="pub-bibtex-code">@article{Zhang2025b,
+  author = {Zhang, Yong and Ernst, Anja F. and Lafit, Ginette and Eiling, Ward B. and Bringmann, Laura F.},
+  title = {An Investigation into In-Sample and out-of-Sample Model Selection for Nonstationary Autoregressive Models},
+  year = {2025},
+  journal = {British Journal of Mathematical and Statistical Psychology},
+  volume = {n/a},
+  number = {n/a},
+  doi = {10.1111/bmsp.70012}
+}
+</pre>
+    </div>
+    
+
+    
+    <div class="listing-categories">
+      
+        <span class="listing-category">cross-validation</span>
+      
+        <span class="listing-category">idiographic analysis</span>
+      
+        <span class="listing-category">information criteria</span>
+      
+        <span class="listing-category">model selection</span>
+      
+        <span class="listing-category">nonstationarity</span>
+      
+        <span class="listing-category">predictive accuracy</span>
+      
+        <span class="listing-category">time-series</span>
+      
+    </div>
+    
+  </div>
+</div>
+
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+
+
 
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

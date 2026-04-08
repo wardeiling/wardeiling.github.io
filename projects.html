@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Ward B. Eiling – Ward Eiling</title>
+<title>Projects – Ward Eiling</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,17 +33,18 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-3bb95fcf13a991dba0133ab2e30b42a7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +72,93 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-msc-projects .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-msc-projects'] = new List('listing-msc-projects', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-bsc-projects .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-bsc-projects'] = new List('listing-bsc-projects', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -94,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
@@ -102,7 +189,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -127,53 +214,244 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#msc.-methodology-and-statistics-utrecht-university" id="toc-msc.-methodology-and-statistics-utrecht-university" class="nav-link active" data-scroll-target="#msc.-methodology-and-statistics-utrecht-university">MSc. Methodology and Statistics, Utrecht University</a></li>
+  <li><a href="#bsc.-psychology-university-of-groningen" id="toc-bsc.-psychology-university-of-groningen" class="nav-link" data-scroll-target="#bsc.-psychology-university-of-groningen">BSc. Psychology, University of Groningen</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
-
-
-
-<div class="quarto-about-trestles column-page">
-  <div class="about-entity">
-    <img src="wardeiling-forest.jpg" class="about-image
-  rounded " style="width: 20em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ward B. Eiling</h1>
+<h1 class="title">Projects</h1>
 </div>
-<div class="quarto-title-meta column-page">
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://www.linkedin.com/in/wardeiling/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">Linkedin</span>
-  </a>
-  <a href="https://github.com/wardeiling" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="https://orcid.org/0009-0007-8114-9497" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="ai  ai-orcid" aria-label="orcid"></i> ORCID</span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=RcebMAIAAAAJ&amp;hl=en" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="ai  ai-google-scholar" aria-label="google-scholar"></i> Google Scholar</span>
-  </a>
+
+
+<p>Welcome to my work page! Here you can find a list of some projects I have worked on.</p>
+<section id="msc.-methodology-and-statistics-utrecht-university" class="level1">
+<h1>MSc. Methodology and Statistics, Utrecht University</h1>
+<div id="listing-msc-projects" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="VGhlc2lzJTJDTXVsdGlsZXZlbCUyME1vZGVscyUyQ0dFRSUyQ0JpbmFyeSUyMERhdGElMkNTaW11bGF0aW9uJTIwU3R1ZHk=" data-listing-date-sort="1750809600000" data-listing-file-modified-sort="1775650292207" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
+<a href="./projects/msc/master-thesis.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/msc/master-thesis.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title" data-anchor-id="msc.-methodology-and-statistics-utrecht-university">
+MLMs vs.&nbsp;GEEs with Binary Outcomes
+</h5>
+<div class="card-subtitle listing-subtitle">
+Master Thesis · Utrecht University
 </div>
-  </div>
-  <div class="about-contents"><div id="hero-heading">
-<p>I am a PhD student at Tilburg University’s <a href="https://www.tilburguniversity.edu/about/schools/socialsciences/organization/departments/methodology-statistics">Department of Methodology and Statistics</a>. My PhD focuses on utilizing causal discovery and machine learning methods to enhance theory formation in the social sciences. Before this, I completed the research master’s program in Methodology and Statistics at Utrecht University.</p>
-<p>When I am not programming or writing, I enjoy playing the electric guitar, mountain biking, going on hikes and reading philosophy books (about mindfulness and stoicism), as well as novel. Feel free to connect with me on <a href="https://www.goodreads.com/user/show/149844375-ward">goodreads</a> :).</p>
+<div class="listing-categories">
 
+<div class="listing-category" onclick="window.quartoListingCategory('VGhlc2lz'); return false;">Thesis</div>
 
-</div></div>
+<div class="listing-category" onclick="window.quartoListingCategory('TXVsdGlsZXZlbCUyME1vZGVscw=='); return false;">Multilevel Models</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R0VF'); return false;">GEE</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QmluYXJ5JTIwRGF0YQ=='); return false;">Binary Data</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U2ltdWxhdGlvbiUyMFN0dWR5'); return false;">Simulation Study</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Comparing performance of multilevel models and generalized estimating equations across disaggregation methods for clustered longitudinal binary data.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+June 25, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="TG9naXN0aWMlMjBSZWdyZXNzaW9uJTJDUENBJTJDU3BhcnNlJTIwUENBJTJDSGlnaC1EaW1lbnNpb25hbCUyMERhdGE=" data-listing-date-sort="1736985600000" data-listing-file-modified-sort="1775650292206" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
+<a href="./projects/msc/genes-to-tumors.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/msc/genes-to-tumors.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+From Genes to Tumors: Dimension Reduction in Logistic Regression
+</h5>
+<div class="card-subtitle listing-subtitle">
+Course Project · High-Dimensional Data Analysis
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('TG9naXN0aWMlMjBSZWdyZXNzaW9u'); return false;">Logistic Regression</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UENB'); return false;">PCA</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3BhcnNlJTIwUENB'); return false;">Sparse PCA</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGlnaC1EaW1lbnNpb25hbCUyMERhdGE='); return false;">High-Dimensional Data</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Classifying prostate tumor vs.&nbsp;healthy tissue samples using gene expression data with 6,000+ variables, comparing stepwise logistic regression, PCA, and sparse PCA.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+January 16, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="QmF5ZXNpYW4lMjBTdGF0aXN0aWNzJTJDVkFSJTIwTW9kZWxzJTJDVGltZSUyMFNlcmllcw==" data-listing-date-sort="1718755200000" data-listing-file-modified-sort="1775650292205" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="114">
+<a href="./projects/msc/bayesian-var.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/msc/bayesian-var.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Bayesian Vector Autoregression
+</h5>
+<div class="card-subtitle listing-subtitle">
+Course Project · Bayesian Statistics
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QmF5ZXNpYW4lMjBTdGF0aXN0aWNz'); return false;">Bayesian Statistics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VkFSJTIwTW9kZWxz'); return false;">VAR Models</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VGltZSUyMFNlcmllcw=='); return false;">Time Series</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Applying Bayesian priors to stabilize VAR(1) estimation for short psychological time series, comparing three approaches with different types of prior information.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+June 19, 2024
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="TWlzc2luZyUyMERhdGElMkNNdWx0aXBsZSUyMEltcHV0YXRpb24lMkNTdXJ2ZXklMjBEYXRh" data-listing-date-sort="1705276800000" data-listing-file-modified-sort="1775650292206" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="68">
+<a href="./projects/msc/liss-imputation.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/msc/liss-imputation.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+LISS Income Imputations
+</h5>
+<div class="card-subtitle listing-subtitle">
+Course Project · Survey Data Analysis
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlzc2luZyUyMERhdGE='); return false;">Missing Data</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TXVsdGlwbGUlMjBJbXB1dGF0aW9u'); return false;">Multiple Imputation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3VydmV5JTIwRGF0YQ=='); return false;">Survey Data</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Comparing single versus multiple imputation in a high-dimensional LISS panel dataset, illustrating trade-offs between computational simplicity and statistical rigor.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+January 15, 2024
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="bsc.-psychology-university-of-groningen" class="level1">
+<h1>BSc. Psychology, University of Groningen</h1>
+<div id="listing-bsc-projects" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="VGhlc2lzJTJDVkFSJTIwTW9kZWxzJTJDTW9kZWwlMjBNaXNzcGVjaWZpY2F0aW9uJTJDUHN5Y2hvcGF0aG9sb2d5JTJDVGltZSUyMFNlcmllcw==" data-listing-date-sort="1689206400000" data-listing-file-modified-sort="1775650292204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="95">
+<a href="./projects/bsc/bachelor-thesis.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/bsc/bachelor-thesis.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title" data-anchor-id="bsc.-psychology-university-of-groningen">
+Model Misspecification in VAR Models for Psychopathology
+</h5>
+<div class="card-subtitle listing-subtitle">
+Bachelor Thesis · University of Groningen
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('VGhlc2lz'); return false;">Thesis</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VkFSJTIwTW9kZWxz'); return false;">VAR Models</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TW9kZWwlMjBNaXNzcGVjaWZpY2F0aW9u'); return false;">Model Misspecification</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHN5Y2hvcGF0aG9sb2d5'); return false;">Psychopathology</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VGltZSUyMFNlcmllcw=='); return false;">Time Series</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Exploring how model misspecification in lag-1 VAR models affects predictive performance in psychopathology research, in collaboration with Dr.&nbsp;Laura Bringmann and Yong Zhang.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+July 13, 2023
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
