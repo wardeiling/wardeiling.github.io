@@ -21,7 +21,7 @@ listing:
     fields: [image, date, title, subtitle, description, categories]
 ---
 
-Welcome to my work page! Here you can find a list of some projects I have worked on.
+This page showcases a selection of my academic work, including theses and notable coursework assignments completed during my studies.
 
 # MSc. Methodology and Statistics, Utrecht University
 
