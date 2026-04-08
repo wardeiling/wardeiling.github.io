@@ -13,7 +13,9 @@ categories:
 
 In a course on *High-Dimensional Data Analysis*, I worked on classifying prostate tumor versus healthy tissue samples using gene expression data with over 6,000 variables. Comparing stepwise logistic regression, PCA, and sparse PCA, I learned how dimension reduction techniques can improve prediction while raising trade-offs between accuracy, parsimony, and interpretability.
 
-[Open full text ↗](https://wardeiling.github.io/Sparse-PCA-and-Gene-Expression/Manuscript_From-Genes-to-Tumors.pdf){target="_blank"}
+::: {.project-links}
+[<i class="bi bi-file-pdf"></i> Full text](https://wardeiling.github.io/Sparse-PCA-and-Gene-Expression/Manuscript_From-Genes-to-Tumors.pdf){.pub-btn target="_blank"}
+:::
 
 <iframe src="https://wardeiling.github.io/Sparse-PCA-and-Gene-Expression/Manuscript_From-Genes-to-Tumors.pdf" width="100%" height="600px" style="border: none;">
 This browser does not support PDFs. Please download the PDF instead: <a href="https://wardeiling.github.io/Sparse-PCA-and-Gene-Expression/Manuscript_From-Genes-to-Tumors.pdf">Download PDF</a>.

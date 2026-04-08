@@ -1,5 +1,41 @@
 /* styles.css */
 
+/* ── Shared link buttons (publications + projects) ──────────────────────── */
+
+.pub-links,
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.pub-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.25rem 0.7rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #2780e3;
+  background-color: transparent;
+  border: 1.5px solid #2780e3;
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+
+.pub-btn:hover {
+  background-color: #2780e3;
+  color: #fff;
+  text-decoration: none;
+}
+
+.pub-btn i {
+  font-size: 0.85em;
+}
+
 /* ── Publication listing ────────────────────────────────────────────────── */
 
 .pub-entry {
@@ -39,32 +75,6 @@
   font-size: 0.9rem;
   color: #444;
   margin-top: 0.3rem;
-}
-
-.pub-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  margin-bottom: 0.5rem;
-}
-
-.pub-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  padding: 0.2rem 0.6rem;
-  font-size: 0.82rem;
-  border-radius: 4px;
-  text-decoration: none;
-  color: #fff;
-  background-color: #6c757d;
-  transition: background-color 0.15s;
-}
-
-.pub-btn:hover {
-  background-color: #5a6268;
-  color: #fff;
-  text-decoration: none;
 }
 
 /* Category badges in publication listing */
@@ -122,9 +132,4 @@
   background-color: #f8f9fa;
   white-space: pre-wrap;
   word-break: break-all;
-}
-
-.pub-btn-cite {
-  border: none;
-  cursor: pointer;
 }

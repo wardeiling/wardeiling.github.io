@@ -6,14 +6,12 @@ about:
   image: wardeiling-forest.jpg
   links:
     - icon: linkedin
-      text: Linkedin
       href: https://www.linkedin.com/in/wardeiling/
     - icon: github
-      text: GitHub
       href: https://github.com/wardeiling
-    - text: "{{< ai orcid >}} ORCID"
+    - text: "{{< ai orcid >}}"
       href: https://orcid.org/0009-0007-8114-9497
-    - text: "{{< ai google-scholar >}} Google Scholar"
+    - text: "{{< ai google-scholar >}}"
       href: https://scholar.google.com/citations?user=RcebMAIAAAAJ&hl=en
 ---
 

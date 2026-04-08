@@ -12,7 +12,9 @@ categories:
 
 As part of a course on *Survey Data Analysis*, I compared stepwise (single) imputation with multiple imputation in a high-dimensional dataset. This project illustrated the trade-offs between computational simplicity and statistical rigor, and showed me the practical challenges of handling missing data when many variables are involved.
 
-[Open full text ↗](https://wardeiling.github.io/Project-LISS-income-imputation/final-report.pdf){target="_blank"}
+::: {.project-links}
+[<i class="bi bi-file-pdf"></i> Full text](https://wardeiling.github.io/Project-LISS-income-imputation/final-report.pdf){.pub-btn target="_blank"}
+:::
 
 <iframe src="https://wardeiling.github.io/Project-LISS-income-imputation/final-report.pdf" width="100%" height="600px" style="border: none;">
 This browser does not support PDFs. Please download the PDF instead: <a href="https://wardeiling.github.io/Project-LISS-income-imputation/final-report.pdf">Download PDF</a>.

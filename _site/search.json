@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Ward B. Eiling",
     "section": "",
-    "text": "Linkedin\n  \n  \n    \n     GitHub\n  \n  \n      ORCID\n  \n  \n      Google Scholar\n  \n\n  \n  \nI am a PhD student at Tilburg University’s Department of Methodology and Statistics. My PhD focuses on utilizing causal discovery and machine learning methods to enhance theory formation in the social sciences. Before this, I completed the research master’s program in Methodology and Statistics at Utrecht University.\nWhen I am not programming or writing, I enjoy playing the electric guitar, mountain biking, going on hikes and reading philosophy books (about mindfulness and stoicism), as well as novel. Feel free to connect with me on goodreads :)."
+    "text": "I am a PhD student at Tilburg University’s Department of Methodology and Statistics. My PhD focuses on utilizing causal discovery and machine learning methods to enhance theory formation in the social sciences. Before this, I completed the research master’s program in Methodology and Statistics at Utrecht University.\nWhen I am not programming or writing, I enjoy playing the electric guitar, mountain biking, going on hikes and reading philosophy books (about mindfulness and stoicism), as well as novel. Feel free to connect with me on goodreads :)."
   },
   {
     "objectID": "projects.html",
@@ -18,35 +18,35 @@
     "href": "projects/msc/liss-imputation.html",
     "title": "LISS Income Imputations",
     "section": "",
-    "text": "As part of a course on Survey Data Analysis, I compared stepwise (single) imputation with multiple imputation in a high-dimensional dataset. This project illustrated the trade-offs between computational simplicity and statistical rigor, and showed me the practical challenges of handling missing data when many variables are involved.\nOpen full text ↗\n\nThis browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/Project-LISS-income-imputation/final-report.pdf\"&gt;Download PDF&lt;/a&gt;."
+    "text": "As part of a course on Survey Data Analysis, I compared stepwise (single) imputation with multiple imputation in a high-dimensional dataset. This project illustrated the trade-offs between computational simplicity and statistical rigor, and showed me the practical challenges of handling missing data when many variables are involved.\n\n Full text\n\n\nThis browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/Project-LISS-income-imputation/final-report.pdf\"&gt;Download PDF&lt;/a&gt;."
   },
   {
     "objectID": "projects/msc/genes-to-tumors.html",
     "href": "projects/msc/genes-to-tumors.html",
     "title": "From Genes to Tumors: Dimension Reduction in Logistic Regression",
     "section": "",
-    "text": "In a course on High-Dimensional Data Analysis, I worked on classifying prostate tumor versus healthy tissue samples using gene expression data with over 6,000 variables. Comparing stepwise logistic regression, PCA, and sparse PCA, I learned how dimension reduction techniques can improve prediction while raising trade-offs between accuracy, parsimony, and interpretability.\nOpen full text ↗\n\nThis browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/Sparse-PCA-and-Gene-Expression/Manuscript_From-Genes-to-Tumors.pdf\"&gt;Download PDF&lt;/a&gt;."
+    "text": "In a course on High-Dimensional Data Analysis, I worked on classifying prostate tumor versus healthy tissue samples using gene expression data with over 6,000 variables. Comparing stepwise logistic regression, PCA, and sparse PCA, I learned how dimension reduction techniques can improve prediction while raising trade-offs between accuracy, parsimony, and interpretability.\n\n Full text\n\n\nThis browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/Sparse-PCA-and-Gene-Expression/Manuscript_From-Genes-to-Tumors.pdf\"&gt;Download PDF&lt;/a&gt;."
   },
   {
     "objectID": "projects/msc/master-thesis.html",
     "href": "projects/msc/master-thesis.html",
     "title": "MLMs vs. GEEs with Binary Outcomes",
     "section": "",
-    "text": "In collaboration with prof. dr. Ellen Hamaker and dr. Jeroen Mulder, I examined how within-person and between-person effects can be estimated in clustered longitudinal data with binary predictors and outcomes. We compared the performance of multilevel models (MLMs) and generalized estimating equations (GEEs) across different disaggregation methods. Our simulations show that the commonly used person-mean centering approach—often regarded as the gold standard—can lead to problematic results when applied in MLMs with binary outcomes.\nReplication instructions | Supplementary materials | Open full text ↗\n\n&lt;p&gt;This browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/multilevel-vs-gee-binary/master-thesis.pdf\"&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;"
+    "text": "In collaboration with prof. dr. Ellen Hamaker and dr. Jeroen Mulder, I examined how within-person and between-person effects can be estimated in clustered longitudinal data with binary predictors and outcomes. We compared the performance of multilevel models (MLMs) and generalized estimating equations (GEEs) across different disaggregation methods. Our simulations show that the commonly used person-mean centering approach—often regarded as the gold standard—can lead to problematic results when applied in MLMs with binary outcomes.\n\n Replication instructions  Supplementary materials  Full text\n\n\n&lt;p&gt;This browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/multilevel-vs-gee-binary/master-thesis.pdf\"&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;"
   },
   {
     "objectID": "projects/msc/bayesian-var.html",
     "href": "projects/msc/bayesian-var.html",
     "title": "Bayesian Vector Autoregression",
     "section": "",
-    "text": "For a master’s course in Bayesian Statistics, I explored how Bayesian methods can improve vector autoregression (VAR(1)) models, which are often used to study dynamic processes such as mood and behavior over time. These models are powerful but can easily overfit when applied to the short time series common in psychology. To address this, I implemented and compared three Bayesian approaches that use different types of prior information to stabilize estimation. This project gave me valuable insights into the practical complications of applying Bayesian VAR models and how methodological choices shape the results.\nOpen full text ↗\n\nThis browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/Bayesian-Vector-Autoregression/Report-Bayesian-Vector-Autogression.pdf\"&gt;Download PDF&lt;/a&gt;."
+    "text": "For a master’s course in Bayesian Statistics, I explored how Bayesian methods can improve vector autoregression (VAR(1)) models, which are often used to study dynamic processes such as mood and behavior over time. These models are powerful but can easily overfit when applied to the short time series common in psychology. To address this, I implemented and compared three Bayesian approaches that use different types of prior information to stabilize estimation. This project gave me valuable insights into the practical complications of applying Bayesian VAR models and how methodological choices shape the results.\n\n Full text\n\n\nThis browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/Bayesian-Vector-Autoregression/Report-Bayesian-Vector-Autogression.pdf\"&gt;Download PDF&lt;/a&gt;."
   },
   {
     "objectID": "projects/bsc/bachelor-thesis.html",
     "href": "projects/bsc/bachelor-thesis.html",
     "title": "Model Misspecification in VAR Models for Psychopathology",
     "section": "",
-    "text": "In collaboration with Dr. Laura Bringmann and Yong Zhang, I explored how model misspecification in lag-1 vector autoregressive (VAR1) models affects predictions in psychopathology research. This thesis emphasized the importance of evaluating predictive accuracy, and highlighted the challenges of working with large datasets and violations of model assumptions. This collaboration led to another project on model selection of AR-based models, which is currently under review at the British Journal of Mathematical and Statistical Psychology.\nOpen full text ↗\n\nThis browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/Bachelor-Thesis-VAR-Misspecification/BachelorThesis_Eiling_s3983919.pdf\"&gt;Download PDF&lt;/a&gt;."
+    "text": "In collaboration with Dr. Laura Bringmann and Yong Zhang, I explored how model misspecification in lag-1 vector autoregressive (VAR1) models affects predictions in psychopathology research. This thesis emphasized the importance of evaluating predictive accuracy, and highlighted the challenges of working with large datasets and violations of model assumptions. This collaboration led to another project on model selection of AR-based models, which is currently under review at the British Journal of Mathematical and Statistical Psychology.\n\n Full text\n\n\nThis browser does not support PDFs. Please download the PDF instead: &lt;a href=\"https://wardeiling.github.io/Bachelor-Thesis-VAR-Misspecification/BachelorThesis_Eiling_s3983919.pdf\"&gt;Download PDF&lt;/a&gt;."
   },
   {
     "objectID": "publications.html",

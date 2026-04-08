@@ -12,7 +12,9 @@ categories:
 
 For a master's course in *Bayesian Statistics*, I explored how Bayesian methods can improve vector autoregression (VAR(1)) models, which are often used to study dynamic processes such as mood and behavior over time. These models are powerful but can easily overfit when applied to the short time series common in psychology. To address this, I implemented and compared three Bayesian approaches that use different types of prior information to stabilize estimation. This project gave me valuable insights into the practical complications of applying Bayesian VAR models and how methodological choices shape the results.
 
-[Open full text ↗](https://wardeiling.github.io/Bayesian-Vector-Autoregression/Report-Bayesian-Vector-Autogression.pdf){target="_blank"}
+::: {.project-links}
+[<i class="bi bi-file-pdf"></i> Full text](https://wardeiling.github.io/Bayesian-Vector-Autoregression/Report-Bayesian-Vector-Autogression.pdf){.pub-btn target="_blank"}
+:::
 
 <iframe src="https://wardeiling.github.io/Bayesian-Vector-Autoregression/Report-Bayesian-Vector-Autogression.pdf" width="100%" height="600px" style="border: none;">
 This browser does not support PDFs. Please download the PDF instead: <a href="https://wardeiling.github.io/Bayesian-Vector-Autoregression/Report-Bayesian-Vector-Autogression.pdf">Download PDF</a>.
