@@ -1,6 +1,8 @@
 project:
   type: website
   pre-render: scripts/bib_to_yaml.py
+  resources:
+    - robots.txt
 
 website:
   title: "Ward Eiling"
