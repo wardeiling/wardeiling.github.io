@@ -1,9 +1,5 @@
 [
   {
-    "listing": "/publications.html",
-    "items": []
-  },
-  {
     "listing": "/projects.html",
     "items": [
       "/projects/msc/master-thesis.html",
@@ -12,5 +8,9 @@
       "/projects/msc/liss-imputation.html",
       "/projects/bsc/bachelor-thesis.html"
     ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": []
   }
 ]
