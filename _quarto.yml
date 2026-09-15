@@ -7,9 +7,12 @@ project:
 website:
   title: "Ward Eiling"
   navbar:
+    title: false
     left:
       - href: index.qmd
-        text: "About Me"
+        icon: house-fill
+        text: " "
+        aria-label: "Home"
       - href: publications.qmd
         text: "Publications"
       - href: projects.qmd
@@ -26,9 +29,9 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: [cosmo, custom.scss]
     css: styles.css
-    page-layout: full
+    page-layout: article
     toc: true
     footnotes-hover: true
     code-copy: true

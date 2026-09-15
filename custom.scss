@@ -1,0 +1,85 @@
+/*-- scss:defaults --*/
+
+// Don't load Cosmo's default Source Sans Pro, which is no longer used
+$web-font-path: false;
+
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400&display=swap");
+
+// Old-style letterpress serif for all text (only ships a regular weight)
+$im-fell: "IM Fell DW Pica", Georgia, "Times New Roman", serif;
+
+$font-family-sans-serif: $im-fell;
+$headings-font-family: $im-fell;
+$headings-font-weight: 400;
+
+// Code and BibTeX blocks stay monospaced so they line up
+$font-family-monospace: "IBM Plex Mono", SFMono-Regular, Menlo, Consolas, monospace;
+
+// Warm paper off-white page with a walnut-brown header bar (sand/oat alternative: #ddd0b8)
+$body-bg: #f8f5ee;
+$navbar-bg: #5c4a3a;
+
+// Narrower, centered content column for comfortable line lengths
+$grid-body-width: 800px;
+
+/*-- scss:rules --*/
+
+// Always reserve room for the scrollbar so short and long pages line up
+html {
+  scrollbar-gutter: stable;
+}
+
+// Same heading weight everywhere (IM Fell has no bold, so avoid faux bold)
+h1.title {
+  font-weight: 400;
+}
+
+// Keep the navbar items within the same centered width as the content
+.navbar .navbar-container {
+  max-width: $grid-body-width;
+  margin-inline: auto;
+}
+
+// On desktop, line the first and last navbar icons up with the content edges
+@include media-breakpoint-up(lg) {
+  .navbar .navbar-container {
+    max-width: calc(#{$grid-body-width} + 2 * #{$navbar-nav-link-padding-x});
+    padding-inline: 0;
+  }
+}
+
+// Use the same symmetric grid on every page, so content stays centered under the
+// navbar whether or not a page has a table of contents (TOC) in the right margin
+body:not(.floating):not(.docked) #quarto-content.page-columns,
+body:not(.floating):not(.docked) #quarto-content .page-columns {
+  @include media-breakpoint-up(xl) {
+    grid-template-columns:
+      [screen-start] 1.5em [screen-start-inset] 5fr
+      [page-start] 35px [page-start-inset] minmax(0px, 175px) [body-start-outset] 35px
+      [body-start] 1.5em [body-content-start] $grid-body-width [body-content-end] 1.5em [body-end]
+      35px [body-end-outset] minmax(0px, 175px) [page-end-inset] 35px [page-end]
+      5fr [screen-end-inset] 1.5em [screen-end];
+  }
+
+  // Too narrow for a centered column plus margins: drop the margin columns
+  @include media-breakpoint-down(xl) {
+    grid-template-columns:
+      [screen-start] 1.5em [screen-start-inset page-start page-start-inset body-start-outset] 5fr
+      [body-start] 1.5em [body-content-start] minmax(0px, $grid-body-width) [body-content-end] 1.5em
+      [body-end body-end-outset page-end-inset page-end] 5fr [screen-end-inset] 1.5em [screen-end];
+  }
+}
+
+// ...and hide the margin TOC when there is no room for it
+@include media-breakpoint-down(xl) {
+  #quarto-margin-sidebar {
+    display: none;
+  }
+}
+
+// Elements that act as headings but aren't h1-h6
+.card-title,
+.listing-title {
+  font-family: $headings-font-family;
+  font-weight: 400;
+}

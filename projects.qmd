@@ -23,12 +23,12 @@ listing:
 
 This page showcases a selection of my academic work, including theses and notable coursework assignments completed during my studies.
 
-# MSc. Methodology and Statistics, Utrecht University
+## MSc. Methodology and Statistics, Utrecht University
 
 ::: {#msc-projects}
 :::
 
-# BSc. Psychology, University of Groningen
+## BSc. Psychology, University of Groningen
 
 ::: {#bsc-projects}
 :::
